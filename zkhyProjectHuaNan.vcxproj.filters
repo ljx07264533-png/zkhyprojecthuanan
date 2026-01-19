@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\public">
+      <UniqueIdentifier>{21f0f669-1122-45db-a096-e9d26619b03a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\public">
+      <UniqueIdentifier>{3ddd8c75-1ef2-4b59-8a37-3844f7479f82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\utils">
+      <UniqueIdentifier>{ef69033f-b105-48a1-a545-23aaeea2e834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\utils">
+      <UniqueIdentifier>{d86fac53-b273-41eb-a64e-cda0e02dc2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\imgProcess">
+      <UniqueIdentifier>{becf43b8-df08-4bcb-83d3-c9c9cbe69dfe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\imgProcess">
+      <UniqueIdentifier>{082b45c1-ca4c-462f-814b-3671e8523ad5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\measure">
+      <UniqueIdentifier>{188a44a9-faad-4f07-8885-a5f8d1f0b408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\measure">
+      <UniqueIdentifier>{496de885-2adb-4fa2-abbf-19bf1263540a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\defectDetection">
+      <UniqueIdentifier>{e7eb320c-e7c2-4652-99b7-16925b2b39c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\defectDetection">
+      <UniqueIdentifier>{8b56e48b-8d28-43ff-bcd6-f326067aac5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\defectDetection\boardDet">
+      <UniqueIdentifier>{271647e5-13d6-4a0c-92d2-fac71c39fd5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\defectDetection\markDetect">
+      <UniqueIdentifier>{e89045bd-196c-4fdf-9458-d7591848b372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\defectDetection\markDetect">
+      <UniqueIdentifier>{82aa5cee-f250-4999-9d2d-02092b13e56f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\defectDetection\boardDet">
+      <UniqueIdentifier>{a342eb6d-fdcd-411b-9b44-9ae1001f6ca2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\defectDetection\packaging">
+      <UniqueIdentifier>{c1d316b9-36bb-4390-8d79-b4e4036d0797}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\defectDetection\packaging">
+      <UniqueIdentifier>{c2b29253-96df-4b16-9aaa-224ee494ca5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\defectDetection\miniLed">
+      <UniqueIdentifier>{059fc4ef-68c0-46aa-bcbe-080d0159f4d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\defectDetection\miniLed">
+      <UniqueIdentifier>{9a5cf322-92b8-481d-9694-4cf4b435bdae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\version.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\cJSON.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\cJSON_Utils.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\zkhy_publicClassHN.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\halconcodePublic.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\COperatorINI.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\createProjTransMat.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\projTrans.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\loadProjTransMat.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\camCalib.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\distortionCalib.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\loadCalibParams.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\genAreaFlatFieldCorreFactor.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\areaFlatFieldCorrect.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\waferImageProcess.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\targetAffineTrans.h">
+      <Filter>头文件\imgProcess</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\gatherLine.h">
+      <Filter>头文件\measure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\sideWireMeasure.h">
+      <Filter>头文件\measure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\sideConnectMeasure.h">
+      <Filter>头文件\measure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\saveDetectedInfo.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\saveDefectImage.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\saveDefectInfo.h">
+      <Filter>头文件\public</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\LoadMarkTeachInfo.h">
+      <Filter>头文件\defectDetection\markDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\MarkDetect.h">
+      <Filter>头文件\defectDetection\markDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\MarkTeach.h">
+      <Filter>头文件\defectDetection\markDetect</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\DetFengBianHeight.h">
+      <Filter>头文件\defectDetection\boardDet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\FindBoardEdge.h">
+      <Filter>头文件\defectDetection\boardDet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\PutImageTogether.h">
+      <Filter>头文件\defectDetection\boardDet</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\GenPackagingTemplate.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\BGABall2dDefectDet.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\QFNPad2dDefectDet.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\Packaging2dBodyMeasure.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\EdgeAlign.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\ImagesCombine.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\loadPointsCloud.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\pointCloudToDeepImage.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\savePointsCloud.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\getBGABall3DFeature.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\getPKGInfoSetupItemList.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\PKGInfoSetup.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\BGAInfoSetup.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\QFNInfoSetup.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\SideAlign.h">
+      <Filter>头文件\defectDetection\packaging</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\alglibinternal.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\alglibmisc.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\ap.h">
+      <Filter>头文件\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\miniLEDGlueDetect.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\emptyCheckerBlob.h">
+      <Filter>头文件\defectDetection</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\creatTexture.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\inspectTexture.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\loadModel.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\creatVariationTexture.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\panelLayOut.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\selectRegion.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\autoMark.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\inspectSegement.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\lodSegement.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\segementVariation.h">
+      <Filter>头文件\defectDetection\miniLed</Filter>
+    </ClInclude>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\Laseretchingmeasurement.h">
+      <Filter>头文件\measure</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\version.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cJSON.c">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\cJSON_Utils.c">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zkhy_publicClassHN.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="src\halconcodePublic.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="src\COperatorINI.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\areaFlatFieldCorrect.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\camCalib.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\createProjTransMat.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\distortionCalib.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\genAreaFlatFieldCorreFactor.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\projTrans.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadCalibParams.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadProjTransMat.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\targetAffineTrans.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\waferImageProcess.cpp">
+      <Filter>源文件\imgProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sideConnectMeasure.cpp">
+      <Filter>源文件\measure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gatherLine.cpp">
+      <Filter>源文件\measure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sideWireMeasure.cpp">
+      <Filter>源文件\measure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\saveDetectedInfo.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="src\saveDefectImage.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="src\saveDefectInfo.cpp">
+      <Filter>源文件\public</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadMarkTeachInfo.cpp">
+      <Filter>源文件\defectDetection\markDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MarkDetect.cpp">
+      <Filter>源文件\defectDetection\markDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MarkTeach.cpp">
+      <Filter>源文件\defectDetection\markDetect</Filter>
+    </ClCompile>
+    <ClCompile Include="src\DetFengBianHeight.cpp">
+      <Filter>源文件\defectDetection\boardDet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FindBoardEdge.cpp">
+      <Filter>源文件\defectDetection\boardDet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PutImageTogether.cpp">
+      <Filter>源文件\defectDetection\boardDet</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGABall2dDefectDet.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EdgeAlign.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GenPackagingTemplate.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ImagesCombine.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Packaging2dBodyMeasure.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QFNPad2dDefectDet.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alglibinternal.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\alglibmisc.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ap.cpp">
+      <Filter>源文件\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BGAInfoSetup.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\getBGABall3DFeature.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\getPKGInfoSetupItemList.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoadPointsCloudInput.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PKGInfoSetup.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pointCloudToDeepImage.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\QFNInfoSetup.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\savePointsCloud.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SideAlign.cpp">
+      <Filter>源文件\defectDetection\packaging</Filter>
+    </ClCompile>
+    <ClCompile Include="src\miniLEDGlueDetect.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\emptyCheckerBlob.cpp">
+      <Filter>源文件\defectDetection</Filter>
+    </ClCompile>
+    <ClCompile Include="src\autoMark.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\creatTexture.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\creatVariationTexture.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inspectSegement.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\inspectTexture.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loadModel.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lodSegement.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\panelLayOut.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\segementVariation.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\selectRegion.cpp">
+      <Filter>源文件\defectDetection\miniLed</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Laseretchingmeasurement.cpp">
+      <Filter>源文件\measure</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

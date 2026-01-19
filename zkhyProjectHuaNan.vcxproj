@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{2f33e03c-0853-40b3-8cf0-8d3143429594}</ProjectGuid>
+    <RootNamespace>zkhyProjectHuaNan</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IntDir>$(SolutionDir)Output\Temp\zkhyProjectHuaNan\$(Platform)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)d</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IntDir>$(SolutionDir)Output\Temp\zkhyProjectHuaNan\$(Platform)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_SILENCE_STDEXT_ARR_ITERS_DEPRECATION_WARNING;ALGLIBRARY_EXPORT;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)zkhyProjectHuaNan\include;$(SolutionDir)zkhyProjectHuaNan\third_party\include;$(SolutionDir)Output\AlgorithmLibrary\Include\alglibrary;$(SolutionDir)Output\AlgorithmLibrary\Include\opencv;$(SolutionDir)Output\AlgorithmLibrary\Include\halcon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)zkhyProjectHuaNan\third_party\lib\Debug\;$(SolutionDir)Output\AlgorithmLibrary\Lib\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world410d.lib;halconcppxl.lib;halconxl.lib;halconcpp.lib;halcon.lib;alglibCored.lib;alglibCalibrationd.lib;alglibCudad.lib;alglibDataCollectiond.lib;alglibDeepLearningToolkitd.lib;alglibDefectDetectiond.lib;alglibImageProcessingd.lib;alglibLocationd.lib;alglibMeasured.lib;alglibMiscd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(SolutionDir)zkhyProjectHuaNan\include $(SolutionDir)Output\AlgorithmLibrary\include\alglibrary /E /I /Y
+xcopy $(TargetDir)$(TargetName).lib $(SolutionDir)Output\AlgorithmLibrary\lib\Debug\  /Y
+xcopy $(TargetDir)$(TargetName).dll $(SolutionDir)Output\AlgorithmLibrary\dll\Debug\  /Y
+xcopy $(TargetDir)$(TargetName).pdb $(SolutionDir)Output\AlgorithmLibrary\pdb\Debug\  /E /I /Y</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)zkhyProjectHuaNan\git_bash.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>ALGLIBRARY_EXPORT;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <AdditionalIncludeDirectories>$(SolutionDir)zkhyProjectHuaNan\include;$(SolutionDir)zkhyProjectHuaNan\third_party\include;$(SolutionDir)Output\AlgorithmLibrary\Include\alglibrary;$(SolutionDir)Output\AlgorithmLibrary\Include\opencv;$(SolutionDir)Output\AlgorithmLibrary\Include\halcon;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)zkhyProjectHuaNan\third_party\lib\Release\;$(SolutionDir)Output\AlgorithmLibrary\Lib\Release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world410.lib;halconcppxl.lib;
+halconxl.lib;alglibCore.lib;alglibCalibration.lib;alglibCuda.lib;alglibDataCollection.lib;alglibDeepLearningToolkit.lib;alglibDefectDetection.lib;alglibImageProcessing.lib;alglibLocation.lib;alglibMeasure.lib;alglibMisc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(SolutionDir)zkhyProjectHuaNan\include $(SolutionDir)Output\AlgorithmLibrary\include\alglibrary /E /I /Y
+xcopy $(TargetDir)$(TargetName).lib $(SolutionDir)Output\AlgorithmLibrary\lib\Release\  /Y
+xcopy $(TargetDir)$(TargetName).dll $(SolutionDir)Output\AlgorithmLibrary\dll\Release\  /Y
+xcopy $(TargetDir)$(TargetName).pdb $(SolutionDir)Output\AlgorithmLibrary\pdb\Release\  /E /I /Y</Command>
+    </PostBuildEvent>
+    <PreBuildEvent>
+      <Command>call $(SolutionDir)zkhyProjectHuaNan\git_bash.bat</Command>
+    </PreBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\alglibinternal.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\alglibmisc.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\ap.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\areaFlatFieldCorrect.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\autoMark.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\BGABall2dDefectDet.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\BGAInfoSetup.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\camCalib.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\COperatorINI.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\cJSON.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\cJSON_Utils.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\createProjTransMat.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\creatTexture.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\creatVariationTexture.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\DetFengBianHeight.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\distortionCalib.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\EdgeAlign.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\emptyCheckerBlob.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\FindBoardEdge.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\gatherLine.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\genAreaFlatFieldCorreFactor.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\GenPackagingTemplate.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\getBGABall3DFeature.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\getPKGInfoSetupItemList.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\halconcodePublic.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\ImagesCombine.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\Laseretchingmeasurement.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\segementVariation.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\inspectTexture.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\loadCalibParams.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\LoadMarkTeachInfo.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\loadModel.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\loadPointsCloud.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\loadProjTransMat.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\lodSegement.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\MarkDetect.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\MarkTeach.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\miniLEDGlueDetect.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\Packaging2dBodyMeasure.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\panelLayOut.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\PKGInfoSetup.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\pointCloudToDeepImage.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\projTrans.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\PutImageTogether.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\QFNInfoSetup.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\QFNPad2dDefectDet.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\saveDefectImage.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\saveDefectInfo.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\saveDetectedInfo.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\savePointsCloud.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\inspectSegement.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\selectRegion.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\SideAlign.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\sideWireMeasure.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\sideConnectMeasure.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\targetAffineTrans.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\types.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\utils.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\version.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\waferImageProcess.h" />
+    <ClInclude Include="include\alglibrary\zkhyProjectHuaNan\zkhy_publicClassHN.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\alglibinternal.cpp" />
+    <ClCompile Include="src\alglibmisc.cpp" />
+    <ClCompile Include="src\ap.cpp" />
+    <ClCompile Include="src\areaFlatFieldCorrect.cpp" />
+    <ClCompile Include="src\autoMark.cpp" />
+    <ClCompile Include="src\BGABall2dDefectDet.cpp" />
+    <ClCompile Include="src\BGAInfoSetup.cpp" />
+    <ClCompile Include="src\camCalib.cpp" />
+    <ClCompile Include="src\cJSON.c" />
+    <ClCompile Include="src\cJSON_Utils.c" />
+    <ClCompile Include="src\COperatorINI.cpp" />
+    <ClCompile Include="src\createProjTransMat.cpp" />
+    <ClCompile Include="src\creatTexture.cpp" />
+    <ClCompile Include="src\creatVariationTexture.cpp" />
+    <ClCompile Include="src\DetFengBianHeight.cpp" />
+    <ClCompile Include="src\distortionCalib.cpp" />
+    <ClCompile Include="src\EdgeAlign.cpp" />
+    <ClCompile Include="src\emptyCheckerBlob.cpp" />
+    <ClCompile Include="src\FindBoardEdge.cpp" />
+    <ClCompile Include="src\gatherLine.cpp" />
+    <ClCompile Include="src\genAreaFlatFieldCorreFactor.cpp" />
+    <ClCompile Include="src\GenPackagingTemplate.cpp" />
+    <ClCompile Include="src\getBGABall3DFeature.cpp" />
+    <ClCompile Include="src\getPKGInfoSetupItemList.cpp" />
+    <ClCompile Include="src\halconcodePublic.cpp" />
+    <ClCompile Include="src\ImagesCombine.cpp" />
+    <ClCompile Include="src\inspectSegement.cpp" />
+    <ClCompile Include="src\inspectTexture.cpp" />
+    <ClCompile Include="src\Laseretchingmeasurement.cpp" />
+    <ClCompile Include="src\loadCalibParams.cpp" />
+    <ClCompile Include="src\LoadMarkTeachInfo.cpp" />
+    <ClCompile Include="src\loadModel.cpp" />
+    <ClCompile Include="src\LoadPointsCloudInput.cpp" />
+    <ClCompile Include="src\loadProjTransMat.cpp" />
+    <ClCompile Include="src\lodSegement.cpp" />
+    <ClCompile Include="src\MarkDetect.cpp" />
+    <ClCompile Include="src\MarkTeach.cpp" />
+    <ClCompile Include="src\miniLEDGlueDetect.cpp" />
+    <ClCompile Include="src\Packaging2dBodyMeasure.cpp" />
+    <ClCompile Include="src\panelLayOut.cpp" />
+    <ClCompile Include="src\PKGInfoSetup.cpp" />
+    <ClCompile Include="src\pointCloudToDeepImage.cpp" />
+    <ClCompile Include="src\projTrans.cpp" />
+    <ClCompile Include="src\PutImageTogether.cpp" />
+    <ClCompile Include="src\QFNInfoSetup.cpp" />
+    <ClCompile Include="src\QFNPad2dDefectDet.cpp" />
+    <ClCompile Include="src\saveDefectImage.cpp" />
+    <ClCompile Include="src\saveDefectInfo.cpp" />
+    <ClCompile Include="src\saveDetectedInfo.cpp" />
+    <ClCompile Include="src\savePointsCloud.cpp" />
+    <ClCompile Include="src\segementVariation.cpp" />
+    <ClCompile Include="src\selectRegion.cpp" />
+    <ClCompile Include="src\SideAlign.cpp" />
+    <ClCompile Include="src\sideConnectMeasure.cpp" />
+    <ClCompile Include="src\sideWireMeasure.cpp" />
+    <ClCompile Include="src\targetAffineTrans.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+    <ClCompile Include="src\version.cpp" />
+    <ClCompile Include="src\waferImageProcess.cpp" />
+    <ClCompile Include="src\zkhy_publicClassHN.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
